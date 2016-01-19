@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Satrik Satrik](https://htmlacademy.ru/profile/id124377).
-* Наставник: [Денис Байдаров]((https://htmlacademy.ru/profile/4er).
+* Наставник: [Денис ! Байдаров](https://htmlacademy.ru/profile/4er).
 
 ---
 
