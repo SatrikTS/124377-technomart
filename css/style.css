@@ -3,10 +3,442 @@ body{
 	line-height: 14px;
 	font-weight: normal;
 	font-family: Cuprum, PTSans;
+	margin: 0;
 }
 
 h2{
 	font-size: 30px;
 	font-family: Cuprum;	
 	color: #32425c;
+	margin: 0;
+}
+
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+.top-menu{
+	padding-top: 14px;
+	padding-bottom: 14px;
+	background-color: #293449;
+}
+
+.logo-techomart{
+	float: left;
+	width: 220px;
+	background: red;	
+	margin-left: 10px;
+}	
+
+.search-form{
+	float: left;
+	width: 270px;
+	background: darkcyan;	
+}
+
+.top-menu-panel{
+	float: right;
+	width: 450px;
+	background: lightcyan;
+	margin-right: 10px;
+}
+
+.second-header{
+	background-color: #f1f5f7;
+}
+
+.header-text{
+	float: left;
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 60px;
+	margin-right: 70px;
+	margin-bottom: 48px;
+	background-color: orange;
+}
+
+.header-contacts{
+	float: left;
+	width: 270px;
+	margin-top: 46px;
+	margin-right: 70px;
+	background-color: orange;
+}
+
+.registration-form-btn{
+	float: right;
+	width: 280px;
+	margin-top: 46px;
+	margin-right: 10px;
+	background-color: orange;
+}
+
+.main-navigation{
+	float: left;
+	width: 940px;
+	background: #32425c;
+	margin-bottom: 60px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.main-navigation li{
+	float: left;
+	min-height: 60px;
+	text-align: center;
+	margin-right: 40px;
+}
+
+.main-navigation li a{
+	color: white;
+}
+
+.breadcrumbs{
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.breadcrumbs li{
+	float: left;
+
+}
+
+.promo-block{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.promo-type{
+	float: left;
+	width: 300px;
+	min-height: 123px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.promo-type-slider{
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.promo-materials{
+	background-color:#f6b22d;
+	margin-left: 10px;
+}
+
+.promo-tools{
+	background-color:#4aafde;
+}
+
+.promo-tech{
+	background-color:#cc79d1;
+	margin-right: 0;
+}
+
+.promo-sale{
+	background-color: #85d179;
+	float: right;
+	margin-right: 10px;
+}
+
+.promo-delivery{
+	background-color:#f6b22d;
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+
+.popular-block{
+	width: 940px;
+	min-height: 90px;	
+	background-color: #f7f3ec;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.popular-products-section{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.popular-block-page{
+	background-color: #f2f6f8;
+	margin-bottom: 20px;
+}
+
+.popular-block h2{
+	float: left;
+	background: orange;
+}
+
+.popular-block .main-btn{
+	float: right;
+	background: orange;
+}
+
+
+.product-cell{
+	float: left;
+	width: 220px;
+	height: 318px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background: lightgrey;
+}
+
+
+.product-cell:nth-child(3n){
+	float: right;
+	margin-right: 0px;	
+}
+
+.paginator{
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+.page-num{
+	width: 37px;
+	height: 37px;
+	background-color: red;
+}
+
+.paginator a{
+	width: 37px;
+	height: 37px;
+	color: white;
+}
+
+.popular-brand-logo{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.popular-brand-logo a{
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+	outline: 2px solid orange;
+}
+
+.popular-brand-logo a:nth-child(4n){
+	margin-right: 0px;
+}
+
+.info-block{
+	background: lightblue;
+}
+
+.service-buttons{
+	float: left;
+	width: 240px;
+}
+
+.service-buttons a{
+	display: block;
+}
+
+.divider-line{
+	float: left;
+}
+
+.service-description{
+	float: left;
+	width: 620px;
+}
+
+.service-description p{
+	float: left;
+}
+
+.service-description img{
+	float: right;
+}
+
+.delivery-contacts{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 85px;
+}
+
+.delivery{
+	float: left;
+	width: 520px;
+	background-color: green;
+}
+
+.contacts{
+	float: right;
+	float: 300px;
+	background-color: green;
+}
+.contacts a{
+	display: block;
+}
+
+.selection-block{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.filter-form{
+	float: left;
+	width: 220px;
+	height: 740px;
+	margin-right: 20px;
+	background-color: orange;
+}
+
+.form-checkbox{
+	margin-bottom: 50px;
+}
+
+legend{
+	font-size: 17px;
+}
+
+label{
+	display: block;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.block-communicatory{
+	background-color: #f7f3ec;
+}
+
+.catalog-main-field{
+	float: right;
+	width: 700px;
+	background: #917575;
+}
+
+.catalog-list{
+	width: 700px;
+	background: #669999;
+}
+
+
+.info-block-page h2{
+	padding-top: 70px;
+	padding-bottom: 35px;
+}
+
+.info-block-page p{
+	padding-bottom: 70px;
+	margin: 0;
+}
+
+.footer-top{
+	background-color: #32425c;
+	padding-bottom: 55px;
+}
+
+.footer-top-info{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.footer-bottom-info{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.footer-info-block{
+	float: left;
+	width: 390px;
+	background-color: #287610;
+}
+
+.logo-bottom{
+	margin-bottom: 45px;
+}
+
+.footer-text{
+	float: left;
+	width: 320px;
+}
+.footer-navs-block{
+	float:right;
+	width: 550px;
+	background-color: orange;
+}
+
+.list-footer-info li{
+	float: left;
+}
+
+.list-footer-info li a{
+	color: white;
+}
+
+.list-footer-product li{
+	float: left;
+}
+
+.list-footer-product li a{
+	color: yellow;
+}
+
+.footer-nav-info{
+	float: left;
+	width: 550px
+}
+
+.footer-nav-product{
+	float: left;
+	width: 540px;
+}
+
+.footer-bottom{
+	background-color: #293449;
+	color: white;
+}
+
+.footer-copyright{
+	float: left;
+	width: 230px;
+	margin-right: 150px;
+	outline: 2px solid yellow;
+}
+
+.footer-social{
+	float: left;
+	width: 160px;
+	outline: 2px solid yellow;
+}
+
+.social-btn{
+	color: white;
+}
+
+.footer-contacts{
+	float: right;
+	width: 300px;
+	outline: 2px solid yellow;
+}
+
+.contacts-link{
+	float: right;
+	width: 140px;
+}
+
+.contacts-maker{
+	float: right;
+	width: 120px;
 }
