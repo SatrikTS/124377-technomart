@@ -1,3 +1,21 @@
+		var openCart = document.querySelectorAll(".btn-product-buy");
+		var popupCart = document.querySelector(".popup-cart");
+			
+		for (var i = 0; i < openCart.length; i++) {
+			openCart[i].addEventListener("click", function(event){
+				event.preventDefault();
+				popupCart.classList.add("popup-cart-show");
+				});
+			}
+			
+		var closeCart = document.querySelector(".popup-cross, .btn-shopping-continue");
+		var popupCart = document.querySelector(".popup-cart");
+			
+			closeCart.addEventListener("click", function(event){
+				event.preventDefault();
+				popupCart.classList.remove("popup-cart-show");
+			});
+		
 		var sliderD = document.querySelector(".service-btn-delivery");
 		var showD = document.querySelector(".service-delivery");
 		
@@ -6,8 +24,14 @@
 			showW.style.display="none";
 			showC.style.display="none";
 			showD.style.display="none"; 
-			
 			showD.style.display="block";
+			sliderD.style.border="none";
+			sliderD.style.background="white";
+			sliderD.style.color="#32425c";			
+			sliderC.style.background="#32425c";
+			sliderC.style.color="#fff";	
+			sliderW.style.background="#32425c";
+			sliderW.style.color="#fff";	
 		});
 		
 		var sliderW = document.querySelector(".service-btn-warranty");
@@ -18,8 +42,13 @@
 			showW.style.display="none";
 			showC.style.display="none";
 			showD.style.display="none"; 
-			
 			showW.style.display="block";
+			sliderD.style.background="#32425c";
+			sliderD.style.color="#fff";	
+			sliderW.style.background="white";
+			sliderW.style.color="#32425c";	
+			sliderC.style.background="#32425c";
+			sliderC.style.color="#fff";	
 		});
 		
 		var sliderC = document.querySelector(".service-btn-credit");
@@ -30,8 +59,14 @@
 			showW.style.display="none";
 			showC.style.display="none";
 			showD.style.display="none"; 
-			
 			showC.style.display="block";
+			sliderC.style.border="none";
+			sliderD.style.background="#32425c";
+			sliderD.style.color="#fff";	
+			sliderW.style.background="#32425c";
+			sliderW.style.color="#fff";	
+			sliderC.style.background="#fff";
+			sliderC.style.color="#32425c";	
 		});
 	
 		var open = document.querySelector(".writeus-btn");
@@ -69,20 +104,3 @@
 			popupMap.classList.remove("map-popup-show");
 		
 		});	
-
-	
-		var openCart = document.querySelector(".btn-buy-product");
-		var popupCart = document.querySelector(".popup-cart");
-		
-		openCart.addEventListener("click", function(event){
-			event.preventDefault();
-			popupCart.classList.add("popup-cart-show");
-		});
-		
-		var closeCart = document.querySelector(".popup-cross");
-		var popupCart = document.querySelector(".popup-cart");
-		
-		closeCart.addEventListener("click", function(event){
-			event.preventDefault();
-			popupCart.classList.remove("popup-cart-show");
-		});

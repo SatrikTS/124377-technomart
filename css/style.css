@@ -44,6 +44,7 @@ img{
 }	
 
 .logo-techomart a{
+	font-family: 'Cuprum', 'PT Sans Narrow', 'Tahoma', sans-serif;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
@@ -85,6 +86,7 @@ img{
 }
 
 .search-form input[type="text"]{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	background: #293449;
 	font-size: 17px;
 	line-height: 18px;
@@ -112,6 +114,7 @@ img{
 }
 
 .top-menu-btn{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	display: inline-block;
 	vertical-align: top;
 	font-size: 17px;
@@ -202,6 +205,7 @@ img{
 }
 
 .header-text{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	float: left;
 	width: 200px;
 	padding: 0;
@@ -223,6 +227,7 @@ img{
 }
 
 .header-phone{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	display: block;
 	font-size: 21px;
 	line-height: 18px;
@@ -232,9 +237,23 @@ img{
 	padding-right: 50px;
 	padding-top: 9px;
 	padding-bottom: 9px;
+	position: relative;
+}
+
+.header-phone::before{
+	content: "";
+	position: absolute;
+	top: 8px;
+	left: 12px;
+	width: 25px;
+	height: 25px;
+	background: #ff0000;
+	background: transparent url("../img/sprite.png") no-repeat;
+	background-position: -5px -110px;
 }
 
 .header-address{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	display: block;
 	font-size: 14px;
 	line-height: 24px;
@@ -254,6 +273,7 @@ img{
 
 
 .sign-btn{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	font-size: 21px;
 	line-height: 18px;
 	background-color: #fff;
@@ -374,6 +394,7 @@ img{
 }
 
 .main-navigation{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	float: left;
 	width: 940px;
 	font-size: 17px;
@@ -401,6 +422,7 @@ img{
 }
 
 .main-navigation a{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	display: block;
 	padding: 19px 32px;
 	color: white;
@@ -496,6 +518,8 @@ img{
 
 
 .promo-type h3{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-weight: bold;
 	font-size: 24px;
 	margin: 0;
 	margin-left: 23px;
@@ -503,6 +527,7 @@ img{
 }
 
 .promo-btn{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	display: block;
 	font-size: 14px;
 	line-height: 18px;
@@ -598,6 +623,7 @@ img{
 
 
 .promo-type-slider h3{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	font-size: 36px;
 	line-height: 30px;
 	font-weight: bold;
@@ -780,6 +806,7 @@ img{
 }
 
 .popular-block h2{
+	font-family: 'Cuprum',  'Tahoma', sans-serif;
 	margin: 0;
 	float: left;
 	margin-top: 33px;
@@ -788,6 +815,7 @@ img{
 }
 
 .main-btn{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	color: white;
@@ -822,7 +850,7 @@ img{
 	font-weight: bold;
 	float: left;
 	width: 216px;
-	min-height: 318px;
+	height: 320px;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	border: 1px solid #e5e5e5;
@@ -917,8 +945,10 @@ img{
 
 
 .product-cell .product-name{
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
 	display: inline-block;
 	font-size: 18px;
+	font-weight: bold;
 	line-height: 20px;
 	text-align: center;
 	margin-top: 15px;
@@ -927,16 +957,19 @@ img{
 }
 
 .product-cell .old-price{
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
 	display: inline-block;
 	font-size: 17px;
+	font-weight: bold;
 	line-height: 18px;
 	text-align: center;
-	margin-top: 18px;
+	margin-top: 13px;
+	margin-bottom: 7px;
 	margin-left: 80px;
-	margin-right: 75px;
 	min-height: 18px;
 	text-decoration: line-through;
 	color: #999999;
+	
 }
 
 .new:before {
@@ -959,7 +992,7 @@ img{
 	padding-right: 30px;
 	padding-left: 30px;
 	width: 80px;
-	margin: 10px 45px 20px 43px;
+	margin: 5px 45px 20px 43px;
 	background: #ee3643;
 	border-radius: 3px;
 	position: relative;
@@ -1069,31 +1102,30 @@ img{
 	position: relative;
 }
 
-.info-block::before{
-	content: "";
-	position: absolute;
-	width: 10px;
-	height: 272px;
-	background: transparent url("../img/verticalline.png") no-repeat;
-	top: 200px;
-	left: 440px;
-}
+
 
 .info-block-page{
 	background: #f2f6f8;
 }
 
 .info-block-page h2{
-	padding-top: 68px;
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	padding-top: 70px;
+	padding-bottom: 35px;
 	color: #000;
 	font-size: 30px;
 	line-height: 24px;
 }
 
 .info-block-page p{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	font-size: 13px;
 	line-height: 24px;
+	padding-bottom: 70px;
+	margin: 0;
 }
+
+
 
 .service {
 	padding-top: 65px;
@@ -1102,12 +1134,14 @@ img{
 }
 
 .service h2{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	font-size: 30px;
 	line-height: 24px;
 	color: #000;
 }
 
 .service p{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	margin: 0px;
 	margin-top: 40px;
 	font-size: 13px;
@@ -1120,7 +1154,18 @@ img{
 	width: 240px;
 	margin-top: 77px;
 	margin-left: 10px;
+	position: relative;
+}
 
+.service-buttons::before{
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 272px;
+	background: transparent url("../img/verticalline.png") no-repeat;
+	top:-45px;
+	left: 235px;
+	z-index: 800;
 }
 
 .service-buttons .service-btn{
@@ -1138,10 +1183,21 @@ img{
 	border-top: 1px solid #405069;
 }
 
+.service-buttons .service-btn:first-child{
+	background:#fff;
+	color: #293449;
+	border-top: none;
+}
+
+.service-buttons .service-btn:first-child:hover{
+	background:#fff;
+}
+
 .service-buttons .service-btn:hover{
 	background-color: #293449;
-	border: none;
 }
+
+
 
 .divider-line{
 	float: left;
@@ -1151,12 +1207,14 @@ img{
 }
 
 .service-description h2{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	font-size: 36px;
 	line-height: 24px;
 	color: #32425c;
 }
 
 .service-description p{
+	font-family: 'Cuprum', 'Tahoma', sans-serif;	
 	font-size: 13px;
 	line-height: 24px;
 }
@@ -1248,11 +1306,13 @@ img{
 }
 
 .delivery-contacts h2{
+	font-family: 'Cuprum', 'PT Sans Narrow', 'Tahoma', sans-serif;
 	font-size: 30px;
 	line-height: auto;
 }
 
 .delivery-contacts p{
+	font-family: 'Cuprum', 'PT Sans Narrow', 'Tahoma', sans-serif;	
 	font-size: 13px;
 	line-height: 24px;
 	
@@ -1381,6 +1441,7 @@ img{
 }
 
 .price-controls label {
+	font-family:'PT Sans Narrow', 'Tahoma', sans-serif;
 	margin-top: 10px;
 	font-size: 16px;
 	display: inline-block;
@@ -1607,6 +1668,7 @@ img{
 
 
 .sort-function .btn-sort{
+	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;	
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 75px;
@@ -1636,16 +1698,6 @@ img{
 	width: 700px;
 }
 
-
-.info-block-page h2{
-	padding-top: 70px;
-	padding-bottom: 35px;
-}
-
-.info-block-page p{
-	padding-bottom: 70px;
-	margin: 0;
-}
 
 .popup-helper{
 	display: none;
@@ -1846,6 +1898,7 @@ img{
 }
 
 .popup-cart-bottom .btn-shopping-continue{
+	font-family: 'Cuprum',  sans-serif;
 	float: right;
 	background: #fff;
 	font-size: 14px;
@@ -1888,10 +1941,12 @@ img{
 }
 
 .logo-bottom a{
+	font-family: 'Cuprum',  sans-serif;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
 	font-size: 30px;
+	font-weight: bold;
 	line-height: 30px;
 	text-decoration: none;
 	padding-top: 17px;
@@ -1904,6 +1959,7 @@ img{
 }
 
 .footer-text-top{
+	font-family: 'Cuprum',  sans-serif;
 	float: left;
 	width: 320px;
 	font-size: 18px;
@@ -1941,6 +1997,7 @@ img{
 }
 
 .list-footer-info  a{
+	font-family: 'Cuprum',  sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	color: white;
@@ -1973,7 +2030,12 @@ img{
 	margin-left: -5px;
 }
 
+.list-footer-product li:last-child{
+	margin-left: 58px;
+}
+
 .list-footer-product a{
+	font-family: 'Cuprum',  sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	color: #ffd180;
@@ -1998,6 +2060,7 @@ img{
 }
 
 .footer-text-bottom{
+	font-family: 'Cuprum',  sans-serif;
 	padding: 0;
 	margin-top: 35px;
 	font-size: 16px;
@@ -2060,6 +2123,7 @@ img{
 }
 
 .footer-contacts p{
+	font-family: 'Cuprum',  sans-serif;	
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
@@ -2067,6 +2131,7 @@ img{
 }
 
 .footer-contacts a{
+	font-family: 'Cuprum',  sans-serif;	
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffd180;
