@@ -3,7 +3,7 @@ body{
 	line-height: 14px;
 	font-weight: normal;
 	margin: 0;
-	font-family: 'Cuprum', 'PT Sans Narrow', 'Tahoma', sans-serif;
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 }
 
 h2{
@@ -44,7 +44,7 @@ img{
 }	
 
 .logo-techomart a{
-	font-family: 'Cuprum', 'PT Sans Narrow', 'Tahoma', sans-serif;
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
@@ -60,6 +60,14 @@ img{
 	text-transform: uppercase;
 }
 
+.logo-techomart a:hover{
+	background: #ca2c37;
+}
+
+.logo-techomart a:active{
+	background: #ba2732;
+}
+
 .search-form{
 	float: left;
 	height: 41px;
@@ -68,8 +76,11 @@ img{
 	color: #fff;
 }
 
-.search-form::before{
-	content:"";
+.search-form:hover .search-icon{
+	opacity: 1;
+}
+
+.search-form input[type="text"] + label{
 	position: absolute;
 	top: 12px;
 	left: 12px;
@@ -80,10 +91,22 @@ img{
 	background-position: -5px -140px;
 	opacity: 0.3;
 }
+ 
+ 
 
-.search-form:hover::before{
+.search-form input[type="text"]:focus + label{
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	width: 25px;
+	height: 25px;
+	background: #ff0000;
+	background: transparent url("../img/sprite.png") no-repeat;
+	background-position: -5px -195px;
 	opacity: 1;
-}
+} 
+
+
 
 .search-form input[type="text"]{
 	font-family: 'Cuprum', 'Tahoma', sans-serif;
@@ -96,12 +119,16 @@ img{
 	padding-left: 50px;
 	border: none;
 	color: #fff;
-
 }
-
 
 .search-form input[type="text"]:hover{
 	background: #212a3a;
+}
+
+.search-form input[type="text"]:focus{
+	background: #fff;
+	color: #000;
+	box-shadow: 0px 1px 0px 1px #fff;	
 }
 
 
@@ -133,6 +160,7 @@ img{
 
 .top-menu-btn:active{
 	background:#161d29;
+	opacity: 0.5;
 }
 
 .bookmark-btn{
@@ -176,6 +204,7 @@ img{
 .basket-btn:hover::before{
 	opacity: 1;
 }
+
 
 .basket-active{
 	background: #ee3643;
@@ -311,6 +340,15 @@ img{
 	background-position: -5px -57px;
 }
 
+.btn-enter:hover::before{
+	background: transparent url("../img/sprite2.png") no-repeat;
+	background-position: -10px -10px;
+}
+
+.btn-enter:active::before{
+	background: transparent url("../img/sprite.png") no-repeat;
+	background-position: -5px -57px;
+}
 
 .btn-registration{
 	float: right;
@@ -337,11 +375,6 @@ img{
 	position: relative;
 }
 
-.btn-account:active{
-	color#c7c7c7;
-}
-
-
 .btn-account::before{
 	content: "";
 	position: absolute;
@@ -353,6 +386,17 @@ img{
 	background-position: -5px -167px;
 }
 
+.btn-account:hover::before{
+	background: transparent url("../img/sprite2.png") no-repeat;
+	background-position: -11px -121px;
+}
+
+.btn-account:active::before{
+	background: transparent url("../img/sprite.png") no-repeat;
+	background-position: -5px -167px;
+}
+
+
 .btn-account::after{
 	content: "";
 	position: absolute;
@@ -360,6 +404,16 @@ img{
 	right: 10px;
 	width: 25px;
 	height: 25px;
+	background: transparent url("../img/sprite.png") no-repeat;
+	background-position: -5px -84px;
+}
+
+.btn-account:hover::after{
+	background: transparent url("../img/sprite2.png") no-repeat;
+	background-position: -10px -47px;
+}
+
+.btn-account:active::after{
 	background: transparent url("../img/sprite.png") no-repeat;
 	background-position: -5px -84px;
 }
@@ -692,10 +746,15 @@ img{
 .promo-materials .promo-btn{
 	color: white;
 	background-color: #dda028;
+	opacity: 0.6;
 }
 
 .promo-materials .promo-btn:hover{
-	background-color: #cccccc;
+	opacity: 0.8;
+}
+
+.promo-materials .promo-btn:active{
+	opacity: 1;
 }
 
 .promo-tools{
@@ -716,6 +775,15 @@ img{
 .promo-tools .promo-btn{
 	padding: 10px 26px;
 	background-color: #429dc7;
+	opacity: 0.5;
+}
+
+.promo-tools .promo-btn:hover{
+	opacity: 0.8;
+}
+
+.promo-tools .promo-btn:active{
+	opacity: 1;
 }
 
 .promo-tech{
@@ -737,6 +805,15 @@ img{
 .promo-tech .promo-btn{
 	padding: 10px 30px;
 	background-color: #b76dbc;
+	opacity: 0.5;
+}
+
+.promo-tech .promo-btn:hover{
+	opacity: 0.8;
+}
+
+.promo-tech .promo-btn:active{
+	opacity: 1;
 }
 
 .promo-sale{
@@ -759,6 +836,15 @@ img{
 .promo-sale .promo-btn{
 	padding: 10px 23px;
 	background-color: #77bc6d;
+	opacity: 0.5;
+}
+
+.promo-sale .promo-btn:hover{
+	opacity: 0.8;
+}
+
+.promo-sale .promo-btn:active{
+	opacity: 1;
 }
 
 .promo-delivery{
@@ -782,6 +868,14 @@ img{
 .promo-delivery .promo-btn{
 	padding: 10px 37px;
 	background-color: #dda028;
+	opacity: 0.5;
+}
+
+.promo-delivery .promo-btn:hover{
+	opacity: 0.8;
+}
+.promo-delivery .promo-btn:active{
+	opacity: 1;
 }
 
 
@@ -827,6 +921,10 @@ img{
 
 .main-btn:hover{
 	background: #ca2c37;
+}
+
+.main-btn:active{
+	background: #ba2732;
 }
 
 .popular-products-block .main-btn{
@@ -1077,6 +1175,10 @@ img{
 	box-shadow: 0 8px 15px 5px #b4b8bf;
 }
 
+.popular-brand-logo a:active{
+	opacity: 0.5;
+}
+
 .popular-brand-logo img{
 	max-height: 100%;  
     max-width: 100%; 
@@ -1306,13 +1408,13 @@ img{
 }
 
 .delivery-contacts h2{
-	font-family: 'Cuprum', 'PT Sans Narrow', 'Tahoma', sans-serif;
+	font-family: 'Cuprum', 'Tahoma', sans-serif;
 	font-size: 30px;
 	line-height: auto;
 }
 
 .delivery-contacts p{
-	font-family: 'Cuprum', 'PT Sans Narrow', 'Tahoma', sans-serif;	
+	font-family: 'Cuprum','Tahoma', sans-serif;	
 	font-size: 13px;
 	line-height: 24px;
 	
@@ -1493,8 +1595,13 @@ img{
 	background-position: -10px -10px;
 	top: 0;
 	left: 0;
+	opacity: 0.5;
 }
  
+.form-checkbox-check input[type="checkbox"]:hover + label::before{
+	opacity: 1;
+}
+
 .form-checkbox-check input[type="checkbox"]:checked + label::after{
 	content: "";
 	position: absolute;
@@ -1504,7 +1611,12 @@ img{
 	background-position: -10px -53px;
 	top: 0;
 	left: 0;
+	opacity: 0.5;	
 } 
+
+.form-checkbox-check input[type="checkbox"]:hover + label::after{
+	opacity: 1;
+}
  
 .filter-form hr{
 	margin-bottom: 25px;
@@ -1542,7 +1654,12 @@ img{
 	background-position: -10px -10px;
 	top: -4px;
 	left: 0px;
+	opacity: 0.5;
 } 
+ 
+.form-checkbox-radio input[type="radio"]:hover + label::before{
+	opacity: 1;
+}
  
 .form-checkbox-radio input[type="radio"]:checked + label::after{
 	content:"";
@@ -1553,6 +1670,11 @@ img{
 	background-position: -10px -55px;
 	top: -4px;
 	left: 0px;
+	opacity: 0.5;
+} 
+ 
+.form-checkbox-radio input[type="radio"]:hover + label::after{
+	opacity: 1;
 } 
  
 .form-btn{
@@ -1682,6 +1804,11 @@ img{
 .sort-function .btn-sort:hover{
 	color: #000;
 	border-bottom: 1px solid #ee3643;
+}
+
+.sort-function .btn-sort:active{
+	color: #ee3643;
+	border: none;
 }
 
 .sort-function .btn-sort:first-child{
@@ -1911,7 +2038,7 @@ img{
 	color: white;
 }
 
-.popup-cart .popup-cross{
+.popup-cart .popup-cross-btn{
 	position: absolute;
 	width: 22px;
 	height: 20px;
@@ -2008,6 +2135,10 @@ img{
 	text-decoration: underline;
 }
 
+.list-footer-info  a:active{
+	opacity: 0.5;
+	text-decoration: none;
+}
 
 .footer-nav-product{
 	float: right;
@@ -2046,6 +2177,10 @@ img{
 	text-decoration: underline;
 }
 
+.list-footer-product a:active{
+	opacity: 0.5;
+	text-decoration: none;
+}
 
 .footer-bottom{
 	background-color: #293449;
@@ -2141,6 +2276,13 @@ img{
 .footer-contacts a:hover{
 	text-decoration: underline;
 }
+
+.footer-contacts a:active{
+	color: #c73644;
+	text-decoration: none;
+}
+
+
 .contacts-link{
 	float: left;
 	width: 140px;

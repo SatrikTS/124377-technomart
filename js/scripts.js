@@ -8,12 +8,19 @@
 				});
 			}
 			
-		var closeCart = document.querySelector(".popup-cross, .btn-shopping-continue");
+		var closeCart1 = document.querySelector(".popup-cross-btn");
 		var popupCart = document.querySelector(".popup-cart");
 			
-			closeCart.addEventListener("click", function(event){
+			closeCart1.addEventListener("click", function(event){
 				event.preventDefault();
 				popupCart.classList.remove("popup-cart-show");
+			});
+		
+		var closeCart2 = document.querySelector(".btn-shopping-continue");
+			closeCart2.addEventListener("click", function(event){
+				event.preventDefault();
+				popupCart.classList.remove("popup-cart-show");
+				
 			});
 		
 		var sliderD = document.querySelector(".service-btn-delivery");

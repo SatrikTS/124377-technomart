@@ -17,7 +17,8 @@
 						<a href="index.html">Техномарт</a>
 					</div>
 					<div class="search-form">
-						<input type="text"  placeholder="Поиск:">  
+						<input type="text" id="place-icon" placeholder="Поиск:"> 
+						<label  for="place-icon" class="search-icon"></label>	
 					</div>
 					<div class="top-menu-panel">
 						<a href="#" class="top-menu-btn bookmark-btn">Закладки: 0</a>
@@ -98,7 +99,7 @@
 							<label for="btn-1"></label>
 							<label for="btn-2"></label>
 						</div>
-						<label for="btn-1"><a href="#" class="slider-arrow slider-arrow-right"></a></label>
+						<a href="#" class="slider-arrow slider-arrow-right"></a>
 						<a href="#" class="slider-arrow slider-arrow-left"></a>
 						<div class="slider-inner">
 							<div class="slider-slides">
@@ -375,6 +376,22 @@
 			<a href="#" class="popup-close"></a>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1188.3728490695173!2d30.321860768978194!3d59.93883013460796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2s!4v1455653477681" width="940" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>	
+				<!--Всплывающее окно страницы Каталога -->
+		<div class="popup-cart">
+			<div class="popup-cart-container">
+				<div class="popup-cart-top">
+					<span class="popup-image"></span>
+					<span class="popup-header-text">Товар добавлен в корзину!</span>
+				</div>
+			</div>
+			<div class="popup-cart-bottom">
+				<div class="popup-cart-container">	
+					<a class="main-btn checkout-btn popup-cart-btn">Оформить заказ</a>
+					<a class="btn-shopping-continue popup-cart-btn">Продолжить покупки</a>
+				</div>
+				<a href="#" class="popup-cross-btn"></a>	
+			</div>
+		</div>
 		
 		<script src="js/scripts.js"></script>
 	</body>
