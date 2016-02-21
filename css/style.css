@@ -3,7 +3,7 @@ body{
 	line-height: 14px;
 	font-weight: normal;
 	margin: 0;
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 }
 
 h2{
@@ -44,7 +44,7 @@ img{
 }	
 
 .logo-techomart a{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
@@ -109,7 +109,7 @@ img{
 
 
 .search-form input[type="text"]{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	background: #293449;
 	font-size: 17px;
 	line-height: 18px;
@@ -141,7 +141,7 @@ img{
 }
 
 .top-menu-btn{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	display: inline-block;
 	vertical-align: top;
 	font-size: 17px;
@@ -234,7 +234,7 @@ img{
 }
 
 .header-text{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	float: left;
 	width: 200px;
 	padding: 0;
@@ -256,7 +256,7 @@ img{
 }
 
 .header-phone{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	display: block;
 	font-size: 21px;
 	line-height: 18px;
@@ -282,7 +282,7 @@ img{
 }
 
 .header-address{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	display: block;
 	font-size: 14px;
 	line-height: 24px;
@@ -302,7 +302,7 @@ img{
 
 
 .sign-btn{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	font-size: 21px;
 	line-height: 18px;
 	background-color: #fff;
@@ -448,7 +448,7 @@ img{
 }
 
 .main-navigation{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	float: left;
 	width: 940px;
 	font-size: 17px;
@@ -476,7 +476,7 @@ img{
 }
 
 .main-navigation a{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	display: block;
 	padding: 19px 32px;
 	color: white;
@@ -540,7 +540,7 @@ img{
 
 .breadcrumbs a{
 	text-transform: uppercase;
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	text-decoration: none;	
@@ -572,7 +572,7 @@ img{
 
 
 .promo-type h3{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	font-weight: bold;
 	font-size: 24px;
 	margin: 0;
@@ -581,7 +581,7 @@ img{
 }
 
 .promo-btn{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	display: block;
 	font-size: 14px;
 	line-height: 18px;
@@ -612,12 +612,12 @@ img{
    
 }
 
-.promo-type-slider input[type=radio] {
+.promo-type-slider input[type=radio]{
 	display: none;
 }
 
 
-.slider-controls {
+.slider-controls{
     position: absolute;
     width: 100%;
     left: 0;
@@ -638,20 +638,21 @@ img{
     box-shadow: 0px 0px 2px rgba(0,0,0,.8);     
     transition: background-color .2s;
 }
+	
+#btn-1:checked ~ .slider-controls .slider-radio-btn:first-child{ 
+background: #ee3643; 
+} 
 
-#btn-1:checked ~ .slider-controls label[for="btn-1"] { 
-    background: #ee3643;
-}
 
-#btn-2:checked ~ .slider-controls label[for="btn-2"] { 
-    background: #ee3643;
-}
+#btn-2:checked ~ .slider-controls .slider-radio-btn:last-child{ 
+background: #ee3643; 
+} 
 
 #btn-1:checked ~ .slider-inner .promo-slide-second{ 
     transform: translate(-620px);
 }
 
-#btn-2:checked ~ .slider-inner .promo-slide-first { 
+#btn-2:checked ~ .slider-inner .promo-slide-first{ 
     transform: translate(0px);
 }
 
@@ -660,6 +661,7 @@ img{
 	width: 42px;
 	height: 60px;
 	z-index: 900;
+	cursor:pointer 
 }
 
 .promo-type-slider .slider-arrow-left{
@@ -677,7 +679,7 @@ img{
 
 
 .promo-type-slider h3{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	font-size: 36px;
 	line-height: 30px;
 	font-weight: bold;
@@ -689,12 +691,11 @@ img{
 
 .promo-type-slider .slider-p{
 	display: block;
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	margin-left: 25px;
 	margin-top: 5px;
-	letter-spacing: 1.8px;
 	color: #fff;
 	
 }
@@ -900,7 +901,7 @@ img{
 }
 
 .popular-block h2{
-	font-family: 'Cuprum',  'Tahoma', sans-serif;
+	font-family: "Cuprum",  "Tahoma", sans-serif;
 	margin: 0;
 	float: left;
 	margin-top: 33px;
@@ -909,7 +910,7 @@ img{
 }
 
 .main-btn{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	color: white;
@@ -944,7 +945,7 @@ img{
 }
 
 .product-cell{
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-weight: bold;
 	float: left;
 	width: 216px;
@@ -979,7 +980,7 @@ img{
 
 .btn-product-buy, 
 .btn-product-bookmark{
-	font-family: 'Cuprum', sans-serif;
+	font-family: "Cuprum", sans-serif;
 	font-size: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -1043,7 +1044,7 @@ img{
 
 
 .product-cell .product-name{
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
+	font-family: "PT Sans", "Tahoma", sans-serif;
 	display: inline-block;
 	font-size: 18px;
 	font-weight: bold;
@@ -1055,7 +1056,7 @@ img{
 }
 
 .product-cell .old-price{
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;
+	font-family: "PT Sans", "Tahoma", sans-serif;
 	display: inline-block;
 	font-size: 17px;
 	font-weight: bold;
@@ -1070,7 +1071,11 @@ img{
 	
 }
 
-.new:before {
+.product-name+ .btn-price{
+	top: 38px;
+}
+
+.new:before{
   position: absolute;
   top: 0;
   right: 0;
@@ -1114,7 +1119,7 @@ img{
 
 
 .paginator a{
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 13px;
 	line-height: 34px;
 	display: inline-block;
@@ -1211,7 +1216,7 @@ img{
 }
 
 .info-block-page h2{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	padding-top: 70px;
 	padding-bottom: 35px;
 	color: #000;
@@ -1220,7 +1225,7 @@ img{
 }
 
 .info-block-page p{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "PT Sans", "Tahoma", sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	padding-bottom: 70px;
@@ -1229,21 +1234,21 @@ img{
 
 
 
-.service {
+.service{
 	padding-top: 65px;
 	padding-left: 10px;
 	
 }
 
 .service h2{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	font-size: 30px;
 	line-height: 24px;
 	color: #000;
 }
 
 .service p{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "PT Sans", "Tahoma", sans-serif;
 	margin: 0px;
 	margin-top: 40px;
 	font-size: 13px;
@@ -1266,7 +1271,7 @@ img{
 	height: 272px;
 	background: transparent url("../img/verticalline.png") no-repeat;
 	top:-45px;
-	left: 235px;
+	left: 232px;
 	z-index: 800;
 }
 
@@ -1299,7 +1304,9 @@ img{
 	background-color: #293449;
 }
 
-
+.service-btn-active{
+	background: #293449;
+}
 
 .divider-line{
 	float: left;
@@ -1309,14 +1316,14 @@ img{
 }
 
 .service-description h2{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	font-size: 36px;
 	line-height: 24px;
 	color: #32425c;
 }
 
 .service-description p{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;	
+	font-family: "PT Sans", "Tahoma", sans-serif;	
 	font-size: 13px;
 	line-height: 24px;
 }
@@ -1362,7 +1369,7 @@ img{
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	width: 440px;
+	width: 420px;
 	height: 261px;
 	background: transparent url("../img/warrantypic.png") no-repeat;
 
@@ -1408,13 +1415,14 @@ img{
 }
 
 .delivery-contacts h2{
-	font-family: 'Cuprum', 'Tahoma', sans-serif;
+	font-family: "Cuprum", "Tahoma", sans-serif;
 	font-size: 30px;
+	line-height: 24px;
 	line-height: auto;
 }
 
 .delivery-contacts p{
-	font-family: 'Cuprum','Tahoma', sans-serif;	
+	font-family: "PT Sans","Tahoma", sans-serif;	
 	font-size: 13px;
 	line-height: 24px;
 	
@@ -1506,18 +1514,18 @@ img{
 	position: relative;
 }
 
-.range-controls .scale {
+.range-controls .scale{
 	height: 2px;
 	background: #d7dcde;
 }
 
-.range-controls .bar {
+.range-controls .bar{
 	width: 80%;
 	height: 2px;
 	background: #00ca74;
 }
 
-.range-controls .toggle {
+.range-controls .toggle{
 	position: absolute;
 	top: 30px;
 	left: 0px;
@@ -1538,12 +1546,12 @@ img{
 	left: 160px;
 }
 
-.price-controls {
+.price-controls{
 	font-size: 0;
 }
 
-.price-controls label {
-	font-family:'PT Sans Narrow', 'Tahoma', sans-serif;
+.price-controls label{
+	font-family:"PT Sans", "Tahoma", sans-serif;
 	margin-top: 10px;
 	font-size: 16px;
 	display: inline-block;
@@ -1554,8 +1562,8 @@ img{
 	padding-left: 22px;
 }
 
-.price-controls input {
-	font-family:  'PT Sans Narrow', sans-serif;
+.price-controls input{
+	font-family:  "PT Sans", sans-serif;
 	font-size: 17px;
 	line-height: 18px;
 	text-align: center;
@@ -1574,7 +1582,7 @@ img{
 } 
  
 .form-checkbox-check input[type="checkbox"] + label{
-	font-family:  'PT Sans Narrow', sans-serif;
+	font-family:  "PT Sans", sans-serif;
 	font-size: 15px;
 	display: block;
 	margin: 25px 0px;
@@ -1635,7 +1643,7 @@ img{
 } 
  
 .form-checkbox-radio input[type="radio"] + label{
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 15px;
 	display: block;
 	margin: 25px 0px;
@@ -1680,7 +1688,7 @@ img{
 } 
  
 .form-btn{
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -1692,7 +1700,7 @@ img{
  
  
 .filter-form h3{
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 17px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -1706,7 +1714,7 @@ img{
 }
 
 .block-communicatory{
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -1792,7 +1800,7 @@ img{
 
 
 .sort-function .btn-sort{
-	font-family: 'PT Sans Narrow', 'Tahoma', sans-serif;	
+	font-family: "PT Sans", "Tahoma", sans-serif;	
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 75px;
@@ -1837,14 +1845,14 @@ img{
 	width: 620px;
 	height: 430px;
 	border-top: 7px solid #ee3643;
-	box-shadow: 0 12px 20px 5px #000;
+	box-shadow: 0 19px 48px -3px #000;
 	z-index: 1000;
 }
 
 .popup-helper .popup-form-text{
 	display: inline-block;
 	vertical-align: top;
-	font-family: 'Cuprum', sans-serif;
+	font-family: "Cuprum", sans-serif;
 	font-size: 18px;
 	line-height: 14px;
 	margin: 0;
@@ -1878,7 +1886,7 @@ img{
 }
 
 .popup-helper input[type="text"]{
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	float: left;
@@ -1913,7 +1921,7 @@ img{
 	border: 2px solid #d7dcde;
 	border-radius: 5px;
 	padding-left: 10px;
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	color: #999999;
@@ -2001,7 +2009,7 @@ img{
 	float: left;
 	margin-top: 70px;
 	margin-left: 35px;
-	font-family: 'Cuprum',  sans-serif;
+	font-family: "Cuprum",  sans-serif;
 	font-size: 30px;
 	line-height: 18px;
 	color: #000;
@@ -2027,7 +2035,7 @@ img{
 }
 
 .popup-cart-bottom .btn-shopping-continue{
-	font-family: 'Cuprum',  sans-serif;
+	font-family: "Cuprum",  sans-serif;
 	float: right;
 	background: #fff;
 	font-size: 14px;
@@ -2070,7 +2078,7 @@ img{
 }
 
 .logo-bottom a{
-	font-family: 'Cuprum',  sans-serif;
+	font-family: "Cuprum",  sans-serif;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
@@ -2088,7 +2096,7 @@ img{
 }
 
 .footer-text-top{
-	font-family: 'Cuprum',  sans-serif;
+	font-family: "Cuprum",  sans-serif;
 	float: left;
 	width: 320px;
 	font-size: 18px;
@@ -2126,7 +2134,7 @@ img{
 }
 
 .list-footer-info  a{
-	font-family: 'Cuprum',  sans-serif;
+	font-family: "Cuprum",  sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	color: white;
@@ -2168,7 +2176,7 @@ img{
 }
 
 .list-footer-product a{
-	font-family: 'Cuprum',  sans-serif;
+	font-family: "Cuprum",  sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	color: #ffd180;
@@ -2197,7 +2205,7 @@ img{
 }
 
 .footer-text-bottom{
-	font-family: 'Cuprum',  sans-serif;
+	font-family: "Cuprum",  sans-serif;
 	padding: 0;
 	margin-top: 35px;
 	font-size: 16px;
@@ -2260,7 +2268,7 @@ img{
 }
 
 .footer-contacts p{
-	font-family: 'Cuprum',  sans-serif;	
+	font-family: "Cuprum",  sans-serif;	
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
@@ -2268,7 +2276,7 @@ img{
 }
 
 .footer-contacts a{
-	font-family: 'Cuprum',  sans-serif;	
+	font-family: "Cuprum",  sans-serif;	
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffd180;
