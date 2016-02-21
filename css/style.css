@@ -497,8 +497,9 @@ img{
 
 .breadcrumbs{
 	display: inline-block;
+	vertical-align: top;
 	margin-top: 20px;
-	padding-left: 10px;
+	padding-left: 20px;
 	padding-right: 10px;
 	position: relative;
 }
@@ -521,10 +522,9 @@ img{
 	background: transparent url("../img/right.png") no-repeat;
 }
 
+
 .breadcrumbs li:first-child{
 	padding-left: 0;
-}
-.breadcrumbs li:first-child{
 	position: absolute;
 	content: "";
 	width: 20px;
@@ -545,7 +545,6 @@ img{
 	line-height: 18px;
 	text-decoration: none;	
 	color: black;
-	letter-spacing: 1.5px;
 }
 
 .promo-block{
@@ -628,6 +627,7 @@ img{
 
 .slider-controls .slider-radio-btn{
     display: inline-block;
+	vertical-align: top;
     width: 8px;
     height: 8px;
     margin: 0 3px;
@@ -702,6 +702,7 @@ background: #ee3643;
 
 .promo-type-slider .main-btn{
 	display: inline-block;
+	vertical-align: top;
 	padding: 10px 45px;
 	text-transform: uppercase;
 	margin-top: 116px;
@@ -987,6 +988,7 @@ background: #ee3643;
 	color: #fff;
 	background-color: #63a63e;
 	display: inline-block;
+	vertical-align: top;
 	margin-right: 42px;
 	margin-left: 42px;
 	padding: 10px 0;
@@ -1046,6 +1048,7 @@ background: #ee3643;
 .product-cell .product-name{
 	font-family: "PT Sans", "Tahoma", sans-serif;
 	display: inline-block;
+	vertical-align: top;
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 20px;
@@ -1058,6 +1061,7 @@ background: #ee3643;
 .product-cell .old-price{
 	font-family: "PT Sans", "Tahoma", sans-serif;
 	display: inline-block;
+	vertical-align: top;
 	font-size: 17px;
 	font-weight: bold;
 	line-height: 18px;
@@ -1088,6 +1092,7 @@ background: #ee3643;
 
 .product-cell .btn-price{
 	display: inline-block;
+	vertical-align: top;
 	font-size: 17px;
 	line-height: 18px;
 	color: #fff;
@@ -1167,6 +1172,7 @@ background: #ee3643;
 .popular-brand-logo a{
 	float: left;
 	display: inline-block;
+	vertical-align: top;
 	margin-right: 20px;
 	margin-bottom: 20px; 
 	text-align: center;
@@ -1466,6 +1472,7 @@ background: #ee3643;
 	padding: 10px 40px;
 	margin-top: 30px;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .contacts{
@@ -1557,6 +1564,7 @@ background: #ee3643;
 	margin-top: 10px;
 	font-size: 16px;
 	display: inline-block;
+	vertical-align: top;
 	width: 45%;
 }
 
@@ -1841,7 +1849,8 @@ background: #ee3643;
 .popup-helper{
 	display: none;
 	position: fixed;
-	left: 25%;
+	left: 50%;
+	margin-left: -310px;
 	top: 10%;
 	background: #fff;
 	width: 620px;
@@ -1946,7 +1955,8 @@ background: #ee3643;
 	width: 940px;
 	height: 450px;
 	position: fixed;
-	left: 15%;
+	left: 50%;
+	margin-left: -470px;
 	top: 10%;
 	box-shadow: 0 12px 20px 5px #000;
 	z-index: 1000;
@@ -1968,7 +1978,8 @@ background: #ee3643;
 .popup-cart{
 	display: none;
 	position: fixed;
-	left: 25%;
+	left: 50%;
+	margin-left: -310px;
 	top: 10%;
 	width: 620px;
 	height: 280px;
@@ -2222,6 +2233,7 @@ background: #ee3643;
 
 .social-btn{
 	display: inline-block;
+	vertical-align: top;
 	width: 40px;
 	height: 40px;
 	margin-top: 35px;
