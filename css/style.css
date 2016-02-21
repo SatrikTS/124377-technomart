@@ -1294,16 +1294,21 @@ background: #ee3643;
 	border-top: 1px solid #405069;
 }
 
+.service-buttons .service-btn:hover{
+	background-color: #293449;
+}
+
 .service-buttons .service-btn-active{
 	background:#fff;
 	color: #293449;
 	border-top: none;
 }
 
-.service-buttons .service-btn:hover{
-	background-color: #293449;
-}
 
+.service-buttons  .service-btn-active:hover{
+	background: #fff;
+	color: #293449;
+}
 
 .divider-line{
 	float: left;

@@ -32,10 +32,10 @@
 			showC.style.display="none";
 			showD.style.display="none"; 
 			showD.style.display="block";
-			showD.classList.remove("service-btn-active");	
-			showW.classList.remove("service-btn-active"); 
-			showC.classList.remove("service-btn-active"); 
-			showD.classList.add("service-btn-active");	
+			sliderD.classList.remove("service-btn-active");	
+			sliderW.classList.remove("service-btn-active"); 
+			sliderC.classList.remove("service-btn-active"); 
+			sliderD.classList.add("service-btn-active");	
 		});
 		
 		var sliderW = document.querySelector(".service-btn-warranty");
@@ -47,11 +47,10 @@
 			showC.style.display="none"; 
 			showD.style.display="none"; 
 			showW.style.display="block"; 
-			showW.classList.remove("service-btn-active"); 
-			showC.classList.remove("service-btn-active"); 
-			showD.classList.remove("service-btn-active"); 
-			showW.classList.add("service-btn-active"); 
-			
+			sliderW.classList.remove("service-btn-active"); 
+			sliderC.classList.remove("service-btn-active"); 
+			sliderD.classList.remove("service-btn-active"); 
+			sliderW.classList.add("service-btn-active"); 
 		});
 		
 		var sliderC = document.querySelector(".service-btn-credit");
@@ -63,10 +62,11 @@
 			showC.style.display="none";
 			showD.style.display="none"; 
 			showC.style.display="block";
-			showW.classList.remove("service-btn-active"); 
-			showC.classList.remove("service-btn-active"); 
-			showD.classList.remove("service-btn-active"); 
-			showC.classList.add("service-btn-active");
+			sliderW.classList.remove("service-btn-active"); 
+			sliderC.classList.remove("service-btn-active"); 
+			sliderD.classList.remove("service-btn-active"); 
+			sliderC.classList.add("service-btn-active");
+			sliderC.style.border="none";
 			
 		});
 	
