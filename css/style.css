@@ -1222,6 +1222,8 @@ background: #ee3643;
 	color: #000;
 	font-size: 30px;
 	line-height: 24px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .info-block-page p{
@@ -1230,6 +1232,8 @@ background: #ee3643;
 	line-height: 24px;
 	padding-bottom: 70px;
 	margin: 0;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 
@@ -1290,23 +1294,16 @@ background: #ee3643;
 	border-top: 1px solid #405069;
 }
 
-.service-buttons .service-btn:first-child{
+.service-buttons .service-btn-active{
 	background:#fff;
 	color: #293449;
 	border-top: none;
-}
-
-.service-buttons .service-btn:first-child:hover{
-	background:#fff;
 }
 
 .service-buttons .service-btn:hover{
 	background-color: #293449;
 }
 
-.service-btn-active{
-	background: #293449;
-}
 
 .divider-line{
 	float: left;

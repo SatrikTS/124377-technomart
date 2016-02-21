@@ -32,13 +32,10 @@
 			showC.style.display="none";
 			showD.style.display="none"; 
 			showD.style.display="block";
-			sliderD.style.border="none";
-			sliderD.style.background="white";
-			sliderD.style.color="#32425c";			
-			sliderC.style.background="#32425c";
-			sliderC.style.color="#fff";	
-			sliderW.style.background="#32425c";
-			sliderW.style.color="#fff";	
+			showD.classList.remove("service-btn-active");	
+			showW.classList.remove("service-btn-active"); 
+			showC.classList.remove("service-btn-active"); 
+			showD.classList.add("service-btn-active");	
 		});
 		
 		var sliderW = document.querySelector(".service-btn-warranty");
@@ -46,16 +43,15 @@
 		
 		sliderW.addEventListener("click", function(event){
 			event.preventDefault();
-			showW.style.display="none";
-			showC.style.display="none";
+			showW.style.display="none"; 
+			showC.style.display="none"; 
 			showD.style.display="none"; 
-			showW.style.display="block";
-			sliderD.style.background="#32425c";
-			sliderD.style.color="#fff";	
-			sliderW.style.background="white";
-			sliderW.style.color="#32425c";	
-			sliderC.style.background="#32425c";
-			sliderC.style.color="#fff";	
+			showW.style.display="block"; 
+			showW.classList.remove("service-btn-active"); 
+			showC.classList.remove("service-btn-active"); 
+			showD.classList.remove("service-btn-active"); 
+			showW.classList.add("service-btn-active"); 
+			
 		});
 		
 		var sliderC = document.querySelector(".service-btn-credit");
@@ -67,13 +63,11 @@
 			showC.style.display="none";
 			showD.style.display="none"; 
 			showC.style.display="block";
-			sliderC.style.border="none";
-			sliderD.style.background="#32425c";
-			sliderD.style.color="#fff";	
-			sliderW.style.background="#32425c";
-			sliderW.style.color="#fff";	
-			sliderC.style.background="#fff";
-			sliderC.style.color="#32425c";	
+			showW.classList.remove("service-btn-active"); 
+			showC.classList.remove("service-btn-active"); 
+			showD.classList.remove("service-btn-active"); 
+			showC.classList.add("service-btn-active");
+			
 		});
 	
 		var open = document.querySelector(".writeus-btn");
