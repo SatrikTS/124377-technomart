@@ -4,6 +4,7 @@ body{
 	font-weight: normal;
 	line-height: 14px;
 	margin: 0;
+	min-width: 960px
 }
 
 h2{
@@ -592,7 +593,6 @@ img{
 	margin-left: 23px;
 	margin-top: 12px;
 	padding: 10px 23px;
-	text-decoration: none;
 }
 
 .promo-type-slider{
@@ -601,6 +601,7 @@ img{
 	overflow-x: hidden;
 	position: relative;
 	width: 620px;
+	background: #beae97;
 }
 
 .slider-slides{
@@ -1957,7 +1958,7 @@ img{
 }
 
 .map-popup .popup-close{
-	background: transparent url("../img/сross.png") no-repeat;
+	background: transparent url("../img/cross.png") no-repeat;
 	height: 20px;
 	position: absolute;
 	right: 7px;
