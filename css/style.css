@@ -1634,10 +1634,10 @@ img{
 }
 
 .filter-form hr{
-	color: #f7f3ec;
-	margin: 0;
-	margin-bottom: 23px;
-	margin-top: 23px;
+	border: none; 
+	height: 1px; 
+	background: #e5e5e5;
+	margin: 23px 0;	
 }
 
 .form-checkbox-radio{
